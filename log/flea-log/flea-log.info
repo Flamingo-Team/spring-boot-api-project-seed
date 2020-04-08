@@ -1,0 +1,321 @@
+2020-04-08 13:30:57.523 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 80016 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 13:30:57.527 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 13:30:58.451 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 13:30:58.658 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 13:30:58.914 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 13:30:58.925 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:30:58.926 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 13:30:58.927 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 13:30:59.045 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 13:30:59.045 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1470 ms
+2020-04-08 13:30:59.156 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 13:30:59.398 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 13:31:00.093 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 13:31:00.194 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:31:00.384 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 13:31:00.406 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 13:31:00.450 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 13:31:00.675 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: addUsingPOST_1
+2020-04-08 13:31:00.678 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: deleteUsingPOST_1
+2020-04-08 13:31:00.682 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: detailUsingPOST_1
+2020-04-08 13:31:00.686 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: listUsingGET_1
+2020-04-08 13:31:00.692 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: updateUsingPOST_1
+2020-04-08 13:31:00.719 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:31:00.750 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 13:31:00.754 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.745 seconds (JVM running for 5.167)
+2020-04-08 13:31:22.385 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 13:31:22.386 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 13:31:22.396 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 10 ms
+2020-04-08 13:33:51.397 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:33:51.406 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 13:34:21.818 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 77708 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 13:34:21.823 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 13:34:22.745 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 13:34:22.967 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 13:34:23.260 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 13:34:23.273 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:34:23.274 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 13:34:23.275 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 13:34:23.405 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 13:34:23.405 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1537 ms
+2020-04-08 13:34:23.517 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 13:34:23.717 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 13:34:24.393 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 13:34:24.565 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:34:24.759 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 13:34:24.782 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 13:34:24.822 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 13:34:25.014 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: addUsingPOST_1
+2020-04-08 13:34:25.018 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: deleteUsingPOST_1
+2020-04-08 13:34:25.021 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: detailUsingPOST_1
+2020-04-08 13:34:25.025 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: listUsingGET_1
+2020-04-08 13:34:25.031 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: updateUsingPOST_1
+2020-04-08 13:34:25.052 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:34:25.086 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 13:34:25.091 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 13.718 seconds (JVM running for 25.15)
+2020-04-08 13:35:40.709 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 13:35:40.709 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 13:35:40.718 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 9 ms
+2020-04-08 13:47:29.748 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:47:29.757 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 13:47:35.726 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 83504 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 13:47:35.731 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 13:47:36.660 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 13:47:36.868 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 13:47:37.128 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 13:47:37.139 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:47:37.141 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 13:47:37.141 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 13:47:37.255 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 13:47:37.255 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1478 ms
+2020-04-08 13:47:37.360 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 13:47:37.607 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 13:47:38.280 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 13:47:38.437 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:47:38.626 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 13:47:38.650 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 13:47:38.698 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 13:47:38.934 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: addUsingPOST_1
+2020-04-08 13:47:38.944 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: listUsingGET_1
+2020-04-08 13:47:38.972 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:47:39.004 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 13:47:39.009 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.77 seconds (JVM running for 5.097)
+2020-04-08 13:48:11.769 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 13:48:11.769 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 13:48:11.776 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 7 ms
+2020-04-08 13:48:11.825 [ERROR] com.company.project.configurer.MyWebMvcConfigurerAdapter 90 lambda$configureHandlerExceptionResolvers$0 -- 接口 [/sys/user/list] 出现异常，方法：com.company.project.controller.SysUserController.detail，异常摘要：Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list" org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_131]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_131]
+	at java.lang.Integer.valueOf(Integer.java:766) ~[?:1.8.0_131]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:211) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 50 more
+
+2020-04-08 13:55:04.644 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:55:04.650 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 13:55:10.505 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 81584 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 13:55:10.509 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 13:55:11.414 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 13:55:11.632 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 13:55:11.908 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 13:55:11.919 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:55:11.920 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 13:55:11.921 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 13:55:12.051 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 13:55:12.052 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1498 ms
+2020-04-08 13:55:12.180 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 13:55:12.433 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 13:55:13.163 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 13:55:13.323 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:55:13.512 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 13:55:13.534 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 13:55:13.582 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 13:55:13.781 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: addUsingPOST_1
+2020-04-08 13:55:13.784 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: deleteUsingDELETE_1
+2020-04-08 13:55:13.787 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: detailUsingGET_1
+2020-04-08 13:55:13.791 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: listUsingGET_1
+2020-04-08 13:55:13.794 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith -- Generating unique operation named: updateUsingPUT_1
+2020-04-08 13:55:13.816 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 13:55:13.849 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 13:55:13.852 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.846 seconds (JVM running for 5.181)
+2020-04-08 13:55:32.483 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 13:55:32.483 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 13:55:32.490 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 7 ms
+2020-04-08 14:07:38.283 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 14:07:38.291 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 14:07:46.691 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 81012 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 14:07:46.697 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 14:07:47.661 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 14:07:47.880 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 14:07:48.156 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 14:07:48.167 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 14:07:48.168 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 14:07:48.169 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 14:07:48.294 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 14:07:48.295 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1550 ms
+2020-04-08 14:07:48.420 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 14:07:48.671 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 14:07:49.347 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 14:07:49.521 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 14:07:49.707 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 14:07:49.730 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 14:07:49.775 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 14:07:49.975 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 14:07:50.010 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 14:07:50.014 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.834 seconds (JVM running for 5.2)
+2020-04-08 14:19:53.111 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 14:19:53.112 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 14:19:53.124 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 12 ms
+2020-04-08 14:57:21.212 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 14:57:21.217 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 14:57:27.582 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 72712 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 14:57:27.587 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 14:57:28.507 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 14:57:28.725 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 14:57:29.001 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 14:57:29.012 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 14:57:29.013 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 14:57:29.014 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 14:57:29.135 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 14:57:29.136 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1505 ms
+2020-04-08 14:57:29.253 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 14:57:29.510 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 14:57:30.157 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 14:57:30.328 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 14:57:30.524 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 14:57:30.546 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 14:57:30.594 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 14:57:30.784 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 14:57:30.820 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 14:57:30.824 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.751 seconds (JVM running for 5.151)
+2020-04-08 15:00:44.004 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown -- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 15:00:44.008 [INFO ] com.alibaba.druid.pool.DruidDataSource 1825 close -- {dataSource-1} closed
+2020-04-08 15:00:47.535 [INFO ] org.springframework.boot.StartupInfoLogger 55 logStarting -- Starting SeedApplication on V016271-NJ with PID 84988 (D:\code\speed2\target\classes started by 016271 in D:\code\speed2)
+2020-04-08 15:00:47.540 [INFO ] org.springframework.boot.SpringApplication 655 logStartupProfileInfo -- The following profiles are active: dev
+2020-04-08 15:00:48.471 [INFO ] org.springframework.context.annotation.ConfigurationClassPostProcessor 409 enhanceConfigurationClasses -- Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-08 15:00:48.687 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 15:00:48.948 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize -- Tomcat initialized with port(s): 8081 (http)
+2020-04-08 15:00:48.960 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 15:00:48.960 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting service [Tomcat]
+2020-04-08 15:00:48.961 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-08 15:00:49.081 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring embedded WebApplicationContext
+2020-04-08 15:00:49.081 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext -- Root WebApplicationContext: initialization completed in 1495 ms
+2020-04-08 15:00:49.195 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource -- Init DruidDataSource
+2020-04-08 15:00:49.407 [INFO ] com.alibaba.druid.pool.DruidDataSource 930 init -- {dataSource-1} inited
+2020-04-08 15:00:50.046 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 15:00:50.216 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize -- Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 15:00:50.411 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start -- Context refreshed
+2020-04-08 15:00:50.434 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start -- Found 1 custom documentation plugin(s)
+2020-04-08 15:00:50.484 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan -- Scanning for api listing references
+2020-04-08 15:00:50.678 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 15:00:50.712 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start -- Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-08 15:00:50.715 [INFO ] org.springframework.boot.StartupInfoLogger 61 logStarted -- Started SeedApplication in 3.707 seconds (JVM running for 5.246)
+2020-04-08 15:01:03.406 [INFO ] org.apache.juli.logging.DirectJDKLog 173 log -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 15:01:03.406 [INFO ] org.springframework.web.servlet.FrameworkServlet 525 initServletBean -- Initializing Servlet 'dispatcherServlet'
+2020-04-08 15:01:03.413 [INFO ] org.springframework.web.servlet.FrameworkServlet 547 initServletBean -- Completed initialization in 7 ms
+2020-04-08 15:01:25.240 [ERROR] com.company.project.configurer.MyWebMvcConfigurerAdapter 90 lambda$configureHandlerExceptionResolvers$0 -- 接口 [/user/ss] 出现异常，方法：com.company.project.controller.UserController.detail，异常摘要：Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "ss" org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "ss"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.lang.NumberFormatException: For input string: "ss"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_131]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_131]
+	at java.lang.Integer.valueOf(Integer.java:766) ~[?:1.8.0_131]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:211) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 50 more
+
